@@ -1,0 +1,46 @@
+*{	margin: 0px;
+	padding: 0px;}
+div#layout{width: 1200px;
+border:1px solid #000;
+margin:0px auto;}
+div#layout div#header{
+	height: 120px;}
+div#layout div#header div.hleft {float: left; width: auto; padding: 10px;}
+div#layout div#header div.hright {float: right; width: auto; padding: 10px;
+text-align: right;}
+div#layout div#header div.hright ul.htop{list-style: none;}
+div#layout div#header div.hright ul.htop li{display: inline;}
+div#layout div#content{width: 55%; float: left; padding:10px;}
+div#layout div#sidebar{width: 30%; float: right; }
+div#layout div#footer{height: 100px; clear: both; border-top: 1px solid #000}
+div#layout div#header div.hright ul.hbottom{list-style: none; text-align: right;
+margin-top: 30px}
+div#layout div#header div.hright ul.hbottom li{display: inline; padding: 5px;
+text-align: right; border-right: 1px solid#000;}
+div#layout div#nav ul{list-style: none; height: 50px; padding-right: 12px 0px;
+background: url("images/bg_gnav.gif") repeat-x; color: #fff;}
+div#layout div#nav ul li{display: inline; padding: 0px 10px; border-right: 1px solid #fff;}
+div#layout div#nav ul li.last{border: none;}
+div#layout div#nav ul a li{text-decoration: none; color: #fff;}
+div#layout div#nav ul a li:hover{text-decoration: underline; color: red;}
+div#layout div#nav ul a{text-decoration: none;}
+div#content h2{border-bottom: 1px solid #666666; font-size: 120%;}
+div#content div.pleft{float: left; margin: 10px; width: 30%;}
+div#content div.pright{float: right; width: 50%;}
+div#content ul.thumbnail {clear: both; list-style: none;}
+div#content ul.thumbnail li{display: inline;}
+div#content dl dd{border-bottom: 1px dotted#000; padding: 10px;}
+div#content dl dd a{text-decoration: none;color: #000; font-weight: bold;}
+div#content dl dd a:hover{text-decoration: underline; color: red;}
+div#sidebar h2{
+	border-bottom: 1px solid #666666;
+	font-size: 120%;
+	margin: 10px 0px	
+}
+div#sidebar ul{list-style: none;}
+div#sidebar ul li{padding: 5px 20px; background: url("images/ico_arrow.gif") no-repeat left center;}
+div#footer div.fleft {float: left; width: auto;padding: 10px;}
+div#footer div.fright {float: right; width: auto;padding: 10px;}
+div#footer div.fright ul{list-style: none; text-align: right;}
+div#footer div.fright ul li{padding: 5px; display: inline; text-align: right; border-right: 1px solid#000;}
+text-align: left
